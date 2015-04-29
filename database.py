@@ -9,4 +9,6 @@ class database_c :
 	def init():
 		query = QSqlQuery()
 		query.exec( """CREATE TABLE spielklassen( id INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE NOT NULL, name VARCHAR NOT NULL ) """ )
+		query.prepare( """INSERT INTO spielklassen (id, name) VALUES (:id, :name ) """ )
+		query.bindValue( ":name", QVariant( QString( "Schüler" ) ) )
 
