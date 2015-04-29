@@ -1,0 +1,529 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "# Allow access to command-line arguments\nimport sys\n \n# SIP allows us to select the API we wish to use\nimport sip\n \n \n# Import all of Qt\nfrom PyQt5.Qt import *\nfrom PyQt5.QtSql import *\n\n \n# Every Qt application must have one and only one QApplication object;\n# it receives the command line arguments passed to the script, as they\n# can be used to customize the application's appearance and behavior\nqt_app = QApplication(sys.argv)\n\n\n \n# Run the application's event loop\nqt_app.exec_()",
+			"file": "main.py",
+			"file_size": 743,
+			"file_write_time": 130748059709132933,
+			"settings":
+			{
+				"buffer_size": 485,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "database.py",
+			"settings":
+			{
+				"buffer_size": 343,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "spielklassen_list.py",
+			"settings":
+			{
+				"buffer_size": 181,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "mannschaft.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "m"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Christian.Becker/Documents/turnierprogramm"
+	],
+	"file_history":
+	[
+		"/C/Python34/Lib/site-packages/PyQt5/examples/mainwindows/separations.py",
+		"/C/Users/Christian.Becker/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/Christian.Becker/Documents/einladung_drfeier",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Environment/environment.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/JSBSim/models/atmosphere/FGWinds.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/LaRCsim/basic_aero.c",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/JSBSim/FGFDMExec.h",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/flight.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/ATC/ATISEncoder.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Environment/metarproperties.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/YASim/Rotor.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/JSBSim/FGFDMExec.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/JSBSim/math/FGNelderMead.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/fdm_shell.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/UIUCModel/uiuc_map_fog.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/GUI/FileDialog.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/YASim/Rotorpart.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/UIUCModel/uiuc_map_init.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/UIUCModel/uiuc_map_ice.h",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/UIUCModel/uiuc_map_ice.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Input/FGDeviceConfigurationMap.hxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Input/FGDeviceConfigurationMap.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/JSBSim/input_output/FGPropertyManager.h",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/JSBSim/input_output/FGPropertyManager.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Instrumentation/HUD/HUD_misc.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/3rdparty/iaxclient/lib/gsm/src/gsm_implode.c",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Instrumentation/mk_viii.hxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Instrumentation/mk_viii.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Instrumentation/marker_beacon.hxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Instrumentation/marker_beacon.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Instrumentation/mag_compass.hxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Instrumentation/mag_compass.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Instrumentation/mrg.hxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Instrumentation/mrg.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/SP/BalloonSim.h",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/SP/BalloonSim.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Network/AV400Sim.hxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Network/AV400Sim.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/LaRCsim/ls_sim_control.h",
+		"/C/Users/Christian.Becker/flightgear-flightgear/CMakeModules/FindSimGear.cmake",
+		"/C/Users/Christian.Becker/flightgear-flightgear/docs-mini/README.SimGear",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Network/http/SimpleDOM.hxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Network/http/SimpleDOM.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/YASim/SimpleJet.hpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/YASim/SimpleJet.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Instrumentation/instrument_mgr.hxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Instrumentation/instrument_mgr.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/README.SimGear",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Instrumentation/vertical_speed_indicator.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/LaRCsim/ls_matrix.h",
+		"/C/Users/Christian.Becker/flightgear-flightgear/3rdparty/flite_hts_engine/flite/include/cst_math.h",
+		"/C/Users/Christian.Becker/flightgear-flightgear/3rdparty/iaxclient/lib/libspeex/math_approx.h",
+		"/C/Users/Christian.Becker/flightgear-flightgear/3rdparty/iaxclient/lib/libspeex/math_approx.c",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/YASim/Math.hpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/JSBSim/math/FGPropertyValue.h",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/JSBSim/math/FGPropertyValue.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/JSBSim/input_output/FGPropertyReader.h",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/JSBSim/input_output/FGPropertyReader.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/GUI/property_list.hxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/GUI/property_list.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/scripts/java/FGClient/src/org/flightgear/fgfsclient/PropertyPage.java",
+		"/C/Users/Christian.Becker/flightgear-flightgear/3rdparty/iaxclient/lib/gsm/src/gsm_print.c",
+		"/C/Users/Christian.Becker/flightgear-flightgear/3rdparty/iaxclient/lib/libspeex/speex_header.c",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/ATC/ATISEncoder.hxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/UIUCModel/uiuc_getwind.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/tests/test-gethostname.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/3rdparty/iaxclient/lib/gsm/src/gsm_encode.c",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Airports/gnnode.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/flight.hxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/icons/scalable/flightgear.svg",
+		"/C/Users/Christian.Becker/flightgear-flightgear/package/flightgear.png.uue",
+		"/C/Users/Christian.Becker/flightgear-flightgear/package/RedHat/flightgear.desktop",
+		"/C/Users/Christian.Becker/flightgear-flightgear/package/flightgear.desktop",
+		"/C/Users/Christian.Becker/flightgear-flightgear/utils/fgpanel/FGTextureLoaderInterface.hxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/JSBSim/input_output/FGModelLoader.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/README.OSG",
+		"/C/Users/Christian.Becker/flightgear-flightgear/README",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/YASim/Rotor.hpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/JSBSim/models/propulsion/FGRotor.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/JSBSim/models/propulsion/FGRotor.h",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/JSBSim/models/FGAuxiliary.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Environment/metarproperties.hxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/ATC/MetarPropertiesATISInformationProvider.hxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/ATC/MetarPropertiesATISInformationProvider.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Main/metar_main.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/package/debian/menu",
+		"/C/Users/Christian.Becker/flightgear-flightgear/utils/metarproxy/metarproxy",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/UIUCModel/uiuc_map_engine.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/LaRCsim/basic_aero.h",
+		"/C/Users/Christian.Becker/flightgear-flightgear/3rdparty/iaxclient/lib/audio_encode.c",
+		"/C/Users/Christian.Becker/flightgear-flightgear/AUTHORS",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Airports/dynamicloader.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Airports/dynamicloader.hxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Airports/dynamics.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Airports/dynamics.hxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/YASim/RigidBody.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/YASim/RigidBody.hpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/GUI/AirportDiagram.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Airports/airport.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/Instrumentation/airspeed_indicator.cxx",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/UIUCModel/uiuc_flapdata.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/YASim/Gear.cpp",
+		"/C/Users/Christian.Becker/flightgear-flightgear/src/FDM/ExternalNet/ExternalNet.cxx"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getwind",
+			"wind_from_heading_deg",
+			"<",
+			"_atis",
+			"^_atis",
+			"getliftfactor",
+			"getliftfactpr",
+			"getwinds",
+			"getlift",
+			"atmosphere_data"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								434,
+								434
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "database.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								342,
+								342
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "spielklassen_list.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "mannschaft.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "m",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "turnierprogramm.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"fdmfdeex",
+				"src\\FDM\\JSBSim\\FGFDMExec.h"
+			],
+			[
+				"sgproperty",
+				"src\\FDM\\JSBSim\\math\\FGPropertyValue.h"
+			],
+			[
+				"flight",
+				"src\\FDM\\flight.cxx"
+			],
+			[
+				"rotorpar",
+				"src\\FDM\\YASim\\Rotorpart.cpp"
+			],
+			[
+				"metaprop",
+				"src\\Environment\\metarproperties.cxx"
+			],
+			[
+				"metarma",
+				"src\\Main\\metar_main.cxx"
+			],
+			[
+				"aer",
+				"src\\FDM\\LaRCsim\\basic_aero.c"
+			],
+			[
+				"envi",
+				"src\\Environment\\environment.cxx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"getwind",
+				"getWindDirection"
+			],
+			[
+				"updatePosition",
+				"_updatePosition"
+			],
+			[
+				"getliftfa",
+				"getLiftFactor"
+			],
+			[
+				"lift",
+				"calcLiftFactor"
+			],
+			[
+				"force",
+				"body_forces"
+			],
+			[
+				"calculate",
+				"CalculateRelativePosition"
+			],
+			[
+				"getw",
+				"GetWindspeed"
+			],
+			[
+				"getwi",
+				"GetWindspeed"
+			],
+			[
+				"getfor",
+				"getForce"
+			]
+		],
+		"width": 480.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 191.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
