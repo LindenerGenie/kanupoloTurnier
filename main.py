@@ -14,8 +14,13 @@ from PyQt5.Qt import *
 # can be used to customize the application's appearance and behavior
 qt_app = QApplication(sys.argv)
 
-mainWindow = mainWindow_c()
-mainWindow.show()
+db = database_c()
+db.init()
+slist = spielklassenList_c( db.db )
+spielklassenView = spielklassenView_c( slist )
+
+spielklassenView.show()
+
 
 # Run the application's event loop
 qt_app.exec_()

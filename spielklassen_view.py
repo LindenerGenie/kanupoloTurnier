@@ -11,3 +11,5 @@ class spielklassenView_c( QTableView ):
 		QTableView.__init__( self )
 		self.spielklassenList = spielklassenList
 		self.setModel( self.spielklassenList )
+		self.setItemDelegate( QSqlRelationalDelegate( self) )
+		self.resizeColumnsToContents()
