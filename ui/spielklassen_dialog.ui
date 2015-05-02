@@ -15,7 +15,7 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <widget class="QListView" name="spielklassenListView_c"/>
+    <widget class="QListView" name="spielklassenListView"/>
    </item>
    <item>
     <widget class="QDialogButtonBox" name="buttonBox">
